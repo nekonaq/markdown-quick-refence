@@ -1,0 +1,23 @@
+# -*- mode: org; buffer-read-only: nil; truncate-lines: nil; fill-column: 84 -*-
+#+STARTUP: showall hideblocks
+#+OPTIONS: ^:{} toc:nil num:nil title:nil date:nil author:nil email:nil
+#+OPTIONS: H:3 *:nil \n:nil
+#+DATE: [2024-10-03]
+#+AUTHOR: Tatsuo Nakajyo <tnak@nekonaq.com>
+#+EMAIL: tnak@nekonaq.com
+#+TITLE: Markdown クイックリファレンス
+
+* {{{title}}}
+
+** はじめに
+
+* COMMENT HOWTO
+
+  - プレビュー (テストサーバー起動)
+    このドキュメントで =C-x C= (compile) する。
+
+* COMMENT //END
+
+# Local Variables:
+# compile-command: "mkdocs serve -a 0.0.0.0:8000"
+# End:
